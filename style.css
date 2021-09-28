@@ -1,4 +1,47 @@
-h1{
-    color: white;
-    background-color: black;
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+#_404
+{
+    /* background-color: rgb(255, 189, 127); */
+    background-color: rgb(255, 146, 127);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Luckiest Guy', cursive;
+    justify-content: center;
+    align-items: center;
+}
+
+#error
+{
+    font-size: 20vw;
+    width: 100%;
+    text-align: center;
+    color: bisque;
+    text-shadow: 1px 5px 20px rgb(136, 104, 104);
+}
+#re
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.4cm;
+    margin-top: 1cm;
+}
+#re button
+{
+    width: 4.5cm;
+    height: 1.2cm;
+    background-color: bisque;
+    border-radius: 0.2cm;
+    border-style: none;
+    box-shadow: 1px 5px 20px 1px rgb(136, 104, 104);
 }
